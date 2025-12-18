@@ -112,7 +112,7 @@ const ReportModal = ({ stats, trucks, config, snapshot1800, queueLogs, lastLoadI
   const truckCycleTime = config.loadingTime + config.accessRoadOut + config.mainRoadOut + config.dumpEntry + config.dumpingTime + config.dumpExit + config.mainRoadIn + config.accessRoadIn;
   const excavatorCycleTime = config.loadingTime;
   
-  // FIX: Define missing variables
+  // FIX: Define missing variables (Perbaikan Utama)
   const numTrucks = config.truckCount;
   const numExcavators = config.excavatorCount;
 
